@@ -37,22 +37,306 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+        <header class="masthead text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                <div class="masthead-contenu">
+                    <!-- Masthead Heading-->
+                    <h1 class="masthead-heading text-uppercase mb-0">Samuel Doucette</h1>
+                    <!-- Icon Divider-->
+                    <div class="divider-custom divider-light">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Masthead Subheading-->
+                    <p class="masthead-subheading font-weight-light mb-0">Étudiant de 3<sup>e</sup> année en informatique appliquée</p>
                 </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
             </div>
         </header>
+        <!-- Introduction - Samuel Doucette-->
+        <section class="page-section" id="indroduction">
+            <!-- Jumbotron -->
+            <div class="jumbotron p-5">
+                <div class="container-fluid py-5">
+                    <!-- Header -->
+                    <h1 class="display-5 fw-bold text-center">Qui est Samuel Doucette?</h1>
+                    <!-- Icon Divider-->
+                    <div class="divider-custom">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Body -->
+                    <div class="container-fluid">
+                        <div class="row" align-items-center>
+                            <div class="col-md-4">
+                                <a href="https://www.linkedin.com/in/samuel-doucette-9386a3264/"><img src="img/profilePic.jpg" id="profilePicture" class="img-fluid" alt="Image profile - Samuel Doucette"></a>
+                            </div>
+                            <div class="col-md-8 fs-4">
+                                <!-- Description -->
+                                <p>Samuel Doucette est un étudiant de 3<sup>e</sup> année en informatique appliquée à l'Université de Moncton, campus de Moncton. Faisant parti du régime COOP de son université, il a eu l'opportunité de faire un stage en tant que programmeur Web au Département des pêches et océans du Canada en été 2023.</p>
+                                <p>En plus de son intérêt en développement Web, Samuel a une passion pour le développement de jeux vidéos et la génération procédurale. Il aime s'informer sur les nombres aléatoires et les algorithmes de génération dans son temps libre.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projets - Samuel Doucette -->
+        <section class="page-section" id="projets">
+            <!-- Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projets</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Carousel +Captions +Modals -->
+            <div class="container">
+                <div id="carouselProjets" class="carousel slide w-75 mx-auto">
+                    <div class="carousel-inner">
+                        <!-- Item 1 -->
+                        <div class="carousel-item active">
+                            <div data-bs-toggle="modal" data-bs-target="#projet1">
+                                <!-- Image -->
+                                <img class="d-block w-100" src="img/Brain Generator.png" alt="Capture d'écran du projet Scratch Brain Generator" />
+                                <!-- Description -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Projets Scratch</h5>
+                                    <p>Les débuts en programmation pour Samuel</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="carousel-item">
+                            <div data-bs-toggle="modal" data-bs-target="#projet2">
+                                <!-- Image -->
+                                <img class="d-block w-100" src="img/DFO-Logo.png" alt="Logo du Département des Pêches et Océans du Canada" />
+                                <!-- Description -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Stage COOP d'été 2023</h5>
+                                    <p>Projets réalisés chez Pêches et Océans Canada</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Boutons Control -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjets" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjets" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <p class="text-center fs-4 note">Appuyez sur l'image pour plus d'information</p>
+            </div>            
+        </section>
+        <!-- Compétences - Samuel Doucette -->
+        <section class="page-section" id="competences">
+            <!-- Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Compétences</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Barres de progrès -->
+            <div class="container fs-4 backgroundBarres">
+                <!-- Barre 1 -->
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        C++&nbsp;:
+                    </div>
+                    <div class="col-md-9">
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="66" aria-valuemin="0"
+                            aria-valuemax="100">
+                            <div class="progress-bar" style="width: 66%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Barre 2 -->
+                <div class="row align-items-center altRow">
+                    <div class="col-md-3">
+                        HTML et CSS&nbsp;:
+                    </div>
+                    <div class="col-md-9">
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100">
+                            <div class="progress-bar" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Barre 3 -->
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        C#&nbsp;:
+                    </div>
+                    <div class="col-md-9">
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="35" aria-valuemin="0"
+                            aria-valuemax="100">
+                            <div class="progress-bar" style="width: 35%"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Barre 4 -->
+                <div class="row align-items-center altRow">
+                    <div class="col-md-3">
+                        WCAG&nbsp;:
+                    </div>
+                    <div class="col-md-9">
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100">
+                            <div class="progress-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </section>
+        <!-- Réalisations et récompenses - Samuel Doucette -->
+        <section class ="page-section" id="realisations">
+            <!-- Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Réalisations et récompenses</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Communication - Samuel Doucette-->
+        <section class="page-section" id="communication">
+            <!-- Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contactez-moi!</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="container">
+                <!-- Liens contact -->
+                <div class="container-fluid fs-4 contactParagraphe">
+                    <p>Pour me contacter, vous pouvez m'envoyer un message :</p>
+                    <ul>
+                        <li>par courriel (<a href="mailto:esd0586@umoncton.ca">esd0586@umoncton.ca</a>);</li>
+                        <li>sur <a href="https://www.linkedin.com/in/samuel-doucette-9386a3264/">LinkedIn</a></li>
+                    </ul>
+                    <p>Ou remplir le formulaire suivant :</p>
+                </div>
+                <!-- formulaire -->
+                <form>
+                    <div class="container">
+                        <div class="row">
+                            <!-- Nom -->
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label for="formNom" class="form-label">Nom complet</label>
+                                    <input type="text" class="form-control" id="formNom">
+                                </div>
+                            </div>
+                            <!-- Courriel -->
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label for="formCourriel" class="form-label">Adresse Courriel</label>
+                                    <input type="email" class="form-control" id="formCourriel">
+                                </div>
+                            </div>
+                            <!-- Téléphone -->
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label for="formTelephone" class="form-label">Numéro de téléphone</label>
+                                    <input type="email" class="form-control" id="formTelephone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p>Raison de contact : </p>
+                                <ul>
+                                    <li>
+                                        <input type="radio" class="btn-check" name="contactRaison" id="option1" autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="option1">Opportunité d'emploi</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="btn-check" name="contactRaison" id="option2" autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="option2">Proposition de projet</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" class="btn-check" name="contactRaison" id="option4" autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="option4">Autre</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Commentaires supplémentaires&nbsp;:</p>
+                                <textarea class="w-100 h-75"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 mt-5">
+                                <button type="submit" class="btn btn-primary">Soumettre</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button type="submit" class="btn btn-primary">Soumettre</button> -->
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -245,8 +529,7 @@
                         <h4 class="text-uppercase mb-4">About Freelancer</h4>
                         <p class="lead mb-0">
                             Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
+                            <a href="http://startbootstrap.com">Start Bootstrap</a>.
                         </p>
                     </div>
                 </div>
@@ -256,6 +539,216 @@
         <div class="copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Contenu Modals - Samuel Doucette-->
+        <!-- Projet 1-->
+        <div class="modal fade" id="projet1" tabindex="-1" aria-labelledby="projet1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="modalScratch">Projets Scratch</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Depuis un jeune âge, Samuel fut passionné par la création des jeux vidéo. C’est ainsi qu’il a découvrit Scratch, un engin de programmation style de « drag and drop » visé pour les enfants d’âge de 8 à 16 ans. Commençant en 2013, Samuel développa des jeux en s’améliorant au fil des années.</p>
+                        <!-- Carousel -->
+                        <div class="container">
+                            <div id="carouselScratch1" class="carousel slide w-75 mx-auto">
+                                <div class="carousel-inner">
+                                    <!-- Item 1 -->
+                                    <div class="carousel-item active">
+                                        <!-- Image -->
+                                        <img class="d-block w-100" src="img/cat-a-pilor.png" alt="Capture d'écran du projet cat-a-pilor"/>
+                                        <!-- Description -->
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>cat-a-pilor (2013)</h5>
+                                        </div>
+                                    </div>
+                                    <!-- Item 2 -->
+                                    <div class="carousel-item">
+                                        <!-- Image -->
+                                        <img class="d-block w-100" src="img/orange simulator.png" alt="Capture d'écran du projet orange simulator"/>
+                                        <!-- Description -->
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>orange simulator (2016)</h5>
+                                        </div>
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="carousel-item">
+                                        <!-- Image -->
+                                        <img class="d-block w-100" src="img/wiggley worm!.png" alt="Capture d'écran du projet wiggley worm!"/>
+                                        <!-- Description -->
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>wiggley worm! (2016)</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Boutons Control -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselScratch1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselScratch1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Dix ans plus tard, Samuel se trouve toujours de temps en temps à créer des projets avec l’outil, que ce soit pour faire des brouillons d’idées de jeux vidéo, recréer ses jeux préférés, ou tester des concepts de génération procédurale.</p>
+                        <!-- Carousel -->
+                        <div class="container">
+                            <div id="carouselScratch2" class="carousel slide w-75 mx-auto">
+                                <div class="carousel-inner">
+                                    <!-- Item 1 -->
+                                    <div class="carousel-item active">
+                                        <!-- Image -->
+                                        <img class="d-block w-100" src="img/Color Flash.png" alt="Capture d'écran du projet Color Flash"/>
+                                        <!-- Description -->
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Color Flash (2019)</h5>
+                                        </div>
+                                    </div>
+                                    <!-- Item 2 -->
+                                    <div class="carousel-item">
+                                        <!-- Image -->
+                                        <img class="d-block w-100" src="img/Platformer.png" alt="Capture d'écran du projet Platformer"/>
+                                        <!-- Description -->
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Platformer (2019 - Incomplet)</h5>
+                                        </div>
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="carousel-item">
+                                        <!-- Image -->
+                                        <img class="d-block w-100" src="img/Qbert.png" alt="Capture d'écran du projet Qbert"/>
+                                        <!-- Description -->
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Qbert (2019 - Incomplet)</h5>
+                                        </div>
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="carousel-item">
+                                        <!-- Image -->
+                                        <img class="d-block w-100" src="img/noise map generator.png" alt="Capture d'écran du projet Noise Map Generator"/>
+                                        <!-- Description -->
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Noise Map Generator (2021 - Non publié)</h5>
+                                        </div>
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="carousel-item">
+                                        <!-- Image -->
+                                        <img class="d-block w-100" src="img/Brain Generator.png" alt="Capture d'écran du projet Brain Generator"/>
+                                        <!-- Description -->
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Brain Generator (2021 - Non publié)</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Boutons Control -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselScratch2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselScratch2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <p>Malgré le groupe d’âge ciblé par Scratch, Samuel ne croit pas que l’on devrait sous-estimer l’outil. Pousser ses limites et se donner des défis et des contraintes mène toujours à plus de créativité.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        <a class="btn btn-primary" href="https://scratch.mit.edu/users/mousiesam/" role="button">Visiter Scratch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projet 2-->
+        <div class="modal fade" id="projet2" tabindex="-1" aria-labelledby="projet2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg modal-fullscreen-lg-down">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Projet 2</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container text-center">
+                            <img class="img-fluid rounded mb-5" src="img/DFO-Logo 2.png" alt="Logo du département des pêches et océans du gouvenement du Canada" />
+                        </div>
+                        <div class="container">
+                            <p>En été 2023, Samuel a réalisé un stage Coop chez Pèches et Océans Canada, un département du gouvernement fédéral du Canada, en tant que programmeur et analyste junior dans leur équipe Web. Ce stage fut une première introduction au monde du développement Web pour Samuel, qui est rapidement devenu captivé par les possibilités qu’il offre.</p>
+                            <p>En utilisant l’outil de développement Web Drupal, Samuel a appris à créer ses premières pages Web et formulaires. Il a aussi été tâché de faire la correction d’erreurs de <a href="https://www.w3.org/WAI/standards-guidelines/wcag/fr">Règles pour l’accessibilité des contenus Web (WCAG)</a> dans des avis aux pêcheurs publiés sur les sites du département. Rapidement, Samuel a maitrisé plusieurs des concepts de WCAG et a agi comme mentor pour ses coéquipiers. Il a également rédigé un document en français et en anglais d’au-dessus de 30 pages qui explique en détail comment créer un document Word qui respecte WCAG.</p>
+                            <p>Pour des raisons de confidentialité de l’information, aucune image des pages créées par Samuel ne peut être partagée dans ce portfolio. Ceci étant dit, voici le lien menant vers les avis aux pêcheurs de la région de Québec, dont Samuel a grandement contribué :</p>
+                            <ul><li><a href="https://www.qc.dfo-mpo.gc.ca/fr/avis-aux-pecheurs">Avis aux pêcheurs</a></li></ul>
+                            <p>(À noter qu’il y a des avis qui ont été partagés après que Samuel est parti, et qu’après une période, les avis deviennent indisponibles. Il est donc impossible de garantir qu'un avis publié en ce moment a été corrigé par Samuel.)</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
