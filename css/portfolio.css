@@ -1,139 +1,110 @@
 /* Samuel Doucette */
 
-/*fait en cours*/
-.scrollup{
-    position: fixed;
-    bottom: 20px;
-    right: 0;
-    z-index: 5;
-    width: 40px;
-    border-radius: 14px 0 0 14px;
-    padding-left: 5px;
-    background: #2C3E50 
-}
-
 /*General*/
-body{
+/*Arrière plan principal*/
+body {
     background: url(../img/background\ 1.png) repeat;
 }
 
-/* backgrounds */
-/* .backgroundFunky{
-    background: url(../img/background\ 2.png) repeat fixed ;
-} */
+a {
+    color: #343FE4
+}
 
-/*Masthead*/
-.masthead{
-    background: url(../img/background\ 2.png) repeat fixed ;
+/*format section headers*/
+h2.page-section-heading {
+    padding: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    margin: auto;
+    border-radius: 2em
+}
+
+@media only screen and (max-width: 600px) {
+    h2.page-section-heading {
+        padding: auto;
+        margin: auto;
+        width: 95%;
+        border-radius: 2em
+    }
+}
+
+/*Section Masthead*/
+.masthead {
+    background: url(../img/background\ 2.png) repeat fixed;
     border-radius: 4em;
 }
-.masthead-contenu{
+
+.masthead-contenu {
     background-color: #25242ee7;
     color: #E5E5DA;
     border-radius: 2em;
     padding: 2em;
 }
 
-#projets{
-    border-radius: 4em;
-    margin:2.5%;
-    background: url(../img/background\ 2.png) repeat fixed ;
-}
-
-
-/*custom - Samuel Doucette*/
-/* .jumbotron{     
-    background-color: red;
-} */
-
-div.jumbotron{
+/*Section Introduction*/
+/*Jumbotron*/
+div.jumbotron {
     background-color: #F2869F;
     border-radius: 4em;
     margin: 2.5%;
 }
-div.jumbotron p{
+
+div.jumbotron p {
     text-align: justify;
     margin: 2em;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
+
 @media only screen and (max-width: 600px) {
-    div.jumbotron{
+
+    /*Petit écran*/
+    div.jumbotron {
         padding: 1em !important;
     }
-    div.jumbotron p{
+
+    div.jumbotron p {
         text-align: left;
         margin: 0;
     }
 }
-#profilePicture{
+
+/*Image Profile*/
+#profilePicture {
     border-radius: 15em;
     border: 0.5em solid #E5E5DA
 }
 
-.barTitle{
-    text-align: right;
+/*Section projets*/
+#projets {
+    border-radius: 4em;
+    margin: 2.5%;
+    background: url(../img/background\ 2.png) repeat fixed;
 }
 
-h2.page-section-heading{
-    padding:auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 50%;
-    margin: auto;
-    border-radius:2em
-}
-@media only screen and (max-width: 600px) {
-    h2.page-section-heading{
-        padding:auto;
-        margin: auto;
-        width:95%;
-        border-radius:2em
-    }
-}
-
-#projets h2{
+#projets h2 {
     background-color: #20D9E0;
 }
-#competences h2{
-    background-color: #50FF7B !important;
-}
-.backgroundBarres{
-    background-color: #FFE251;
-    border-radius: 3em;
-    padding: 1em 2em
-}
-.backgroundBarres .row{
-    padding: 0.5em 0
-}
-.altRow{
-    background-color:#FFA550;
-    border-radius: 0.5em;
-}
-.progress {
-    --bs-progress-bg: #25242E;
-    --bs-progress-bar-bg: #F2869F;
-    border: 2px solid
-  }
 
-
-
-
-
-
-.carousel-inner{
+/*carousels*/
+.carousel-inner {
     border-radius: 1em;
 }
-.carousel-control-prev, .carousel-control-next{
+
+.carousel-control-prev,
+.carousel-control-next {
     background-color: #25242e50;
     width: 3em;
     border-radius: 1em;
 }
-.carousel-caption{
+
+.carousel-caption {
     background-color: #25242ec0;
     border-radius: 1em;
 }
-.note{
+
+.note {
     background-color: #FFA550;
     width: auto;
     margin: 2.5% 20%;
@@ -142,31 +113,70 @@ h2.page-section-heading{
     border: 0.3em dashed #25242E
 }
 
+/*Section Compétences*/
+#competences h2 {
+    background-color: #50FF7B !important;
+}
 
-#communication{
+/*corps*/
+.backgroundBarres {
+    background-color: #FFE251;
+    border-radius: 3em;
+    padding: 1em 2em
+}
+
+.backgroundBarres .row {
+    padding: 0.5em 0
+}
+
+.altRow {
+    background-color: #FFA550;
+    border-radius: 0.5em;
+}
+
+.progress {
+    --bs-progress-bg: #25242E;
+    --bs-progress-bar-bg: #F2869F;
+    border: 2px solid #25242E
+}
+
+/*Section Réalisations*/
+#realisations {
+    background: url(../img/background\ 2.png) repeat fixed;
+    border-radius: 4em;
+    margin: 2.5% 2.5% 6em 2.5%
+}
+#realisations h2 {
+    background-color: #E5E5DA;
+}
+
+/*Section Communication*/
+#communication {
     background-color: #9984D3;
     border-top-left-radius: 4em;
     border-top-right-radius: 4em;
+    padding-top: 1em;
+    margin-top: 1em;
 }
-.contactParagraphe{
+
+.contactParagraphe {
     background-color: #F2869F;
-    /* background: url(../img/background\ 1.png) repeat; */
     padding: 2em;
     border-radius: 2em;
     margin: 0 0 10%;
     border: 0.3em dashed #25242E
 }
-a{
-    color: #343FE4
-}
-#communication ul{
+
+#communication form ul {
     padding: 0;
 }
-#communication li{
+
+#communication form li {
     list-style-type: none;
     margin: 0.5em 0
 }
-#communication .btn-outline-primary{
+
+#communication .btn-outline-primary {
     color: #25242E;
     outline-color: #25242E
 }
